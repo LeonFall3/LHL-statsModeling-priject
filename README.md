@@ -4,7 +4,7 @@
 (fill in your description and goals here)
 
 ## Process
-### (your step 1)
+Used CityBikes API to pull bikes in Glasgow, Scotland. I saved that response in a local JSON which I then parsed into a dataframe. I chose to leave out the city and country data as they are needed.
 ### (your step 2)
 
 ## Results
@@ -15,3 +15,6 @@
 
 ## Future Goals
 (what would you do if you had more time?)
+
+## Resources Used
+CityBikes API - https://citybik.es
