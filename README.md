@@ -1,6 +1,6 @@
 
 #  Statistical Modelling with Python Project
-Project for program at Lighthouse Labs. Worked on in October 2024.
+Project for program at Lighthouse Labs. Worked on in October 2024. <br>
 Click [here](https://prezi.com/view/g5epficHVM2q1VTXrAiq/) to see the prestation that goes with!
   
 
@@ -38,19 +38,6 @@ ${\color{red} Note!}$  <br>Every time data is pulled from an API, it gets saved 
 In this project I explored two APIs that gave business data such as location, ratings, contact information, etc. Once I had the results, and cleaned them, from both APIs I took a moment to compare them. In the tables below you can see some example data from each API.
 #### *Yelp*
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -100,19 +87,7 @@ In this project I explored two APIs that gave business data such as location, ra
 
 ### *Foursquare*
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -200,6 +175,6 @@ Now that I took a step and took a new look at the assumption I had made, I pivot
 
 ##  Resources Used
 
-CityBikes API - https://citybik.es
-Yelp Fusion 
-Foursquare
+CityBikes API - https://citybik.es <br>
+Yelp Fusion  <br>
+Foursquare <br>
