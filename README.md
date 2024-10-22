@@ -1,7 +1,7 @@
 
 #  Statistical Modelling with Python Project
 Project for program at Lighthouse Labs. Worked on in October 2024.
-Click here to see the prestation that goes with!
+Click [here](https://prezi.com/view/g5epficHVM2q1VTXrAiq/) to see the prestation that goes with!
   
 
 ##  Project/Goals
@@ -165,10 +165,19 @@ I noticed that while I was expecting both to have extremely similar results, *Ye
 ### Bike Stations Slots and Locations around them and their ratings
 When I first saw *CityBikes*'s API returned how many bike slots were at each station, I immediately assumed the stations with more locations and/or locations with higher ratings would have more slots. More people would need bikes, right? I caught myself as I was dismissing that question. This was the perfect chance to test my assumption!
 I started with looking at the density of locations around each bike station, but quickly noticed there was a high number of stations in the downtown area, meaning there was a lot more people using those stations that just the locations I looked for. This is when I knew I either needed to dig into the population density and building types in the downtown area or pull back and reassess the direction I was going in. As this is a project for school, and has a tight turn around, I chose to reassess.
-$${\color{red}  MAP  }$$
+
+<a href="https://ibb.co/BrjBCV2"><img src="https://i.ibb.co/wwC4zNh/Glasgow-heatmap.png" alt="Glasgow-heatmap" border="0"></a>
+
+> Heatmap showing location density and bike station locations. Look in
+> the joining data notebook for an interactive map!
+
 Now that I took a step and took a new look at the assumption I had made, I pivoted my question. Does having more bike slots in nearby bike stations mean the rating of locations would be higher? There's more access to the locations form the bikes so that became my new question. I decided to do a single linear regression as I knew there were many variables at play, but was mainly curious about this one in particular. 
-  $${\color{red}  GRAPH}$$
-I won't bore you with every detailed step I went through, if you want to know more please take a look at my notebooks! The surprising (to me!) result is that the **more** bike slots a station has, the **lower** the ratings tend to be. There is clearly more at play here, but this was an interesting discovering.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/WKXTx8F/Linear-Regression-Graph.png" alt="Linear-Regression-Graph" border="0"></a>
+
+> Single Linear Regression Graph
+
+  I won't bore you with every detailed step I went through, if you want to know more please take a look at my notebooks! The surprising (to me!) result is that the **more** bike slots a station has, the **lower** the ratings tend to be. There is clearly more at play here, but this was an interesting discovering.
 
 ##  Challenges
 
